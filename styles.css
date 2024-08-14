@@ -36,6 +36,18 @@ body {
 .jumbotron p {
     font-size: 3rem;
 }
+
+.contenedor-servicios {
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+
+.lista-de-servicios {
+    list-style: none;
+}
+
 footer {
     background-color: blueviolet;
     color: #fff;
