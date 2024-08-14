@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("assets/imagenguitar.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 93vh; /* Ocupa toda la altura de la viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(236, 240, 14);
+    text-align: center;
+    position: relative; /* Necesario para posicionar elementos absolutos */
+}
+
+.top-left-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: transparent(0, 0, 0, 0.5);
+    color: rgb(135, 201, 5);
+    padding: 30px;
+    /* Cambios aquí */
+    font-size: 50px; /* ajusta el tamaño de la fuente */
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+}
+
+.jumbotron p {
+    font-size: 3rem;
+}
+footer {
+    background-color: blueviolet;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px;
+    border-top: 2px solid #666;
+}
