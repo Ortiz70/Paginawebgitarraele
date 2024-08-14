@@ -37,15 +37,23 @@ body {
     font-size: 3rem;
 }
 
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent; /* fondo transparente */
+    padding: 30px;
+}
+
 .contenedor-servicios {
-    text-align: center;
-    padding: 8px;
+    text-align: left;
     color: black;
 }
 
 
 .lista-de-servicios {
-    list-style: none;
+    list-style: disc;
 }
 
 footer {
